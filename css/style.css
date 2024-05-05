@@ -60,6 +60,11 @@ nav a:hover {
 
 .image-grid {
   display: flex;
+  gap: 1rem;
+}
+
+.image-grid img{
+  max-height: 5rem;
 }
 
 .hobbies ul {
@@ -72,6 +77,11 @@ nav a:hover {
   padding: 1rem;
 }
 
+.hobbies a {
+  text-decoration: none;
+  color: black;
+}
+
 footer {
   text-align: center;
 }
@@ -79,3 +89,6 @@ footer {
 .rick-roll {
   background-image: url(https://media.giphy.com/media/kHGxZUxfTTInkeybFo/giphy.gif?cid=790b7611ta35mu191czo7xlf37muiml4a0a24rrq3s9wfibs&ep=v1_gifs_search&rid=giphy.gif&ct=g);
 }
+
+
+
